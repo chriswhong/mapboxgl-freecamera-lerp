@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MapboxGL freeCamera API Lerp Example</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+  </head>
+
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+    }
+    .container {
+        height: 100%;
+        display: flex;
+    }
+    #left-map {
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+    }
+
+    #right-map {
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div id="left-map"></div>
+      <div id="right-map"></div>
+    </div>
+  </body>
+  <script src="js/comparison.js" type="module"></script>
+</html>
