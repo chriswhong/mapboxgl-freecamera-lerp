@@ -129,7 +129,7 @@ const center = trackGeojson.geometry.coordinates[0]
 const leftMap = new mapboxgl.Map({
     container: "left-map",
     projection: "globe",
-    style: "mapbox://styles/chriswhongmapbox/cl5h6jhqy001d14n97d5y6yvf",
+    style: "mapbox://styles/mapbox/dark-v10",
     zoom: 10,
     center,
     pitch: PITCH,
@@ -139,7 +139,7 @@ const leftMap = new mapboxgl.Map({
 const rightMap = new mapboxgl.Map({
     container: "right-map",
     projection: "globe",
-    style: "mapbox://styles/chriswhongmapbox/cl5h6jhqy001d14n97d5y6yvf",
+    style: "mapbox://styles/mapbox/dark-v10",
     zoom: 10,
     center,
     pitch: PITCH,
